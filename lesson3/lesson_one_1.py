@@ -3,12 +3,13 @@ def str_count(*args,**kwargs):
     s=str(input('Введите строку: '))
     n=int(input('Введите колличество повторов строки: '))
     for i in range(n):
-        print(i)
-    return i
+        print(s)
+    return s
 
 def extent(*args, **kwargs):
     m=int(input('Введите степень: '))
-    return x**m
+    s = print(x**m)
+    return s
 
 def str_repeat(*args, **kwargs):
     global x
